@@ -1,1 +1,17 @@
 
+{
+  "name": "rha-node-core-gateway-10",
+  "version": "1.0.0",
+  "description": "RHA Core Gateway – Full Research Suite Access Node",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["rha", "core", "gateway", "civic-research", "dossier", "node"],
+  "author": "fifthstateorgs",
+  "license": "MIT",
+  "config": {
+    "ENDPOINT_URI": "https://decoderha.pages.dev/",
+    "STATIC_PASSKEY": "RSRX-INDIA"
+  }
+}
